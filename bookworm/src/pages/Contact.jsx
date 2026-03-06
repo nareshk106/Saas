@@ -15,8 +15,14 @@ const Contact = () => {
       <form className="contact-form">
         <input type="text" placeholder="Your Name" required />
         <input type="email" placeholder="Your Email" required />
+        <div>
+
         <textarea placeholder="Your Message" rows="5" required></textarea>
+        </div>
+        <div>
         <button type="submit" className="primary">Send Message</button>
+
+        </div>
       </form>
     </section>
   );
